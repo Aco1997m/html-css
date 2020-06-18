@@ -1,0 +1,125 @@
+.navigacija { 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.navigacija ul { 
+    margin-left: 90px;
+}
+
+.navigacija li {
+    color: rgb(255, 0, 0);
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navigacija form {
+    float: right;
+    padding-right: 150px;
+
+}
+
+.tekst { 
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.pretraga { 
+    border: 1px solid rgb(88,186,87);
+    border-radius: 3px;
+    background-color: rgb(88,186,87);
+    height: 25px;
+}
+
+.kutija {
+    height: 250px;
+    background-color:#EEEEEE;
+    text-align:justify;
+    padding-top: 60px;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.dugme { 
+    font-size: 15px;
+    border: 1px solid rgb(46,121,186);
+    border-radius: 5px;
+    width: 140px;
+    height: 45px;
+    background-color: rgb(46,121,186);
+    color: white
+    }
+
+    #leftbox { 
+        float:left; 
+        width:23%;
+        height: auto; 
+        padding-left:150px;
+    } 
+
+#middlebox { 
+    float: left;
+    width: 23%;
+    height: auto;
+    padding-left: 55px;
+    
+}
+
+#rightbox { 
+    padding-right: 150px;
+    float: right;
+    width: 23%;
+    height: auto; }
+
+.button { 
+    height: 25px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+}
+
+    footer {
+            position: relative;
+            margin-top: 240px;
+            padding-left: 150px;
+            padding-right: 150px;
+    }
+
+body {
+    width: 100%;
+    margin: 0 !important;
+
+}
+
+.padajuci { 
+position: relative;
+}
+
+.padajucisadrzaj { 
+    width: 80px;
+    height: 70px !important;
+    display: none;
+    position: absolute;
+    margin-left: 0 !important;
+    background-color: rgb(88,186,87);
+    padding: 0 !important;
+    border-radius: 10px;
+    
+}
+
+.padajuci:hover .padajucisadrzaj {
+    display: block;
+}
+
+
+
+
