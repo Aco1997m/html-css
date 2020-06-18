@@ -1,0 +1,130 @@
+body { font-family: Arial, Helvetica, sans-serif;
+}
+
+#brand { 
+    font-size: 20px;
+    color: rgb(140, 141, 141);
+    font-weight: bold;
+}
+.mainnav ul { 
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.mainnav ul li {
+    border-top: 1px solid #b9b9b9;
+    border-bottom: 1px solid #b9b9b9;
+    border-left: 2px solid white;
+     padding-top: 14px;
+     float: left;
+     color: #B7BDBF;
+     text-align: center;
+ }
+
+.mainnav { 
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.mainnav li { 
+    font-weight: bold;
+    color: rgb(151, 151, 151);
+     border-radius: none;
+    width: 16.3%;
+    height: 40px;
+    text-align: center;
+    background-color: #EDEDED;
+    overflow: hidden;
+}
+
+
+.mainnav ul li a {text-decoration: none;
+font-size: 20px;
+color: rgb(145, 145, 145);
+}
+
+.lijevili { 
+    border-radius: 10px 0px 0px 10px;
+    border-left: 1px solid #b9b9b9 !important;
+}
+
+.desnili { 
+    border-radius: 0px 10px 10px 0px;
+    border-right: 1px solid #b9b9b9 !important;
+}
+
+
+.getstarted { 
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 28px;
+}
+.getstarted p { 
+    font-size: 18px;
+}
+.dugme { 
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    background-color: #58BA57;
+    color: white
+    }
+
+#leftbox { 
+        float:left; 
+        width:28%;
+        height: auto; 
+        padding-right:40px ;
+        padding-left:10px ;
+        
+    } 
+.crvena { 
+    color: rgb(173, 0, 0);
+}
+
+#middlebox { 
+    float: left;
+    width: 28%;
+    height: auto;
+    padding-left: 90px;
+    
+}
+
+#rightbox { 
+    float: right;
+    width: 28%;
+    height: auto;
+    
+}
+
+.button { 
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(24, 88, 228);
+    color: white
+    }
+
+div p { 
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer { 
+    font-size: 12px;
+    margin-top: 500px;
+    color: #A2A3A2;
+}
+
+hr { 
+    border: 1px solid #dddddd;
+}
