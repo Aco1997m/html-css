@@ -1,0 +1,96 @@
+body {
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.header{ 
+height: 40px;
+width: 100%;
+margin-left: auto;
+margin-right : auto;  
+}
+
+
+.header ul li { 
+    font-size: 20px;
+    color: #2E79BA;
+    float: right;
+    display: block;
+    background-color :#ffffff ;
+    text-align: center ;
+    text-decoration: none ;
+    padding: 2px;
+}
+
+.header ul li:hover { 
+    background-color: #2E79BA;
+    color: white;
+}
+
+.header li {
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    
+}
+
+.naslov { 
+    line-height: 0px;
+    float: left;
+    color: #A2A3A2;
+}
+
+.polje {
+    width: 100%;
+    height: auto;
+    background-color: #EEEEEE;
+    font-size: 20px;
+
+
+}
+
+.malopolje { 
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: center; }
+    
+
+.dugme { 
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 140px;
+    height: 50px;
+    background-color: #58BA57;
+    color: white
+    }
+
+.jumbo {
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.footer {
+    color: #A2A3A2;
+}
+
+h4 { 
+    margin-bottom: 0;
+}
+
+html { 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
